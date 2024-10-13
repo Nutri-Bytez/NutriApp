@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "NutriAPP",
+			"path": "."
+		},
+		{
+			"name": "templates",
+			"path": "templates"
+		}
+	],
+	"settings": {}
+}

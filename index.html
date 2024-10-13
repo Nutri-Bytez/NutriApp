@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+  <title>Basketball Workout Plan Generator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Test Generator</h1>
+    <form method="POST">
+      <label for="query">Enter your query:</label><br>
+      <textarea id="query" name="query" rows="5" cols="30"></textarea><br><br>
+      <input type="submit" value="Generate Plan">
+    </form>
+    <div class="response">
+      <h2>Output: </h2>
+      <p>{{ workout_plan }}</p>
+    </div>
+  </div>
+</body>
+</html>
